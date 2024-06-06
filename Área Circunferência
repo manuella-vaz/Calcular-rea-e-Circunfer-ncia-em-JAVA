@@ -1,0 +1,14 @@
+package exerciciosala1;
+
+import java.util.Scanner;
+
+public class AreaCircunferencia {
+public static void main(String[] args) {
+System.out.println("informe o raio da circunferencia: ");
+Scanner scan = new Scanner(System.in);
+double raio = scan.nextDouble ();
+double area = Math.PI * Math.pow(raio, 2);
+System.out.println("A area da circunferencia é: " + area); 	 
+scan.close(); 
+ }
+}   
